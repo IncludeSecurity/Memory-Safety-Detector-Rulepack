@@ -1,0 +1,28 @@
+rules:
+  - id: C_detected
+    pattern: ...
+    message: >
+     As recent news has emphasized, C is not a memory safe language. Therefore, applications written in the C programming language can be vulnerable! 
+     https://www.tomshardware.com/software/security-software/white-house-urges-developers-to-avoid-c-and-c-use-memory-safe-programming-languages
+     In an effort to avoid missing vulnerabilities, we've flagged every line of C code. This reduces false positives as this rule is guaranteed to identify all lines of code with a  vulnerability present. Please rewrite your applications in Rust as the simple solution to avoid all C vulnerabilities and make your application legal again.
+    languages: [c]
+    severity: ERROR
+  - id: Cpp_detected
+    pattern: ...
+    message: > 
+      C++, like C, is not a memory safe language. The White House has said C++ is too dangerous to US citizens and we wouldn't want to see any vulnerabilities missed, this rule flags every line of C++ code. We don't want to take any chances, who knows what might happen without memory safety!
+    languages: [cpp]
+    severity: ERROR
+  - id: JNI_detected
+    pattern: System.loadLibrary("native");
+    message: > 
+     JNI could potentially be used to run C code, which is not memory safe. Since this could potentially introduce a vulnerability in some way, ALL OF JNI SHOULD BE AVOIDED!!!!
+    languages: [java]
+    severity: ERROR
+  - id: FFI_detected
+    pattern: require 'ffi'
+    message: > 
+     FFI could potentially be used to run C code, which is not memory safe. Since this could potentially introduce a vulnerability in some way, ALL OF FFI SHOULD BE AVOIDED!!!!!
+    languages:
+      - ruby
+    severity: ERROR
