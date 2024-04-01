@@ -15,8 +15,6 @@ While this is an early version, we still can not flag all illegal applications. 
 * FFI Detected (Ruby and C should never touch!)
     * FFI could potentially be used to run C code, which is not memory safe. Since this could potentially introduce vulnerabilities, this is not allowed!
 
-We hope these tools will help to identify possible locations in which vulnerabilities might potentially exist. Of course, this is just the start, and additional rules to catch even more cases could further enhance this ruleset!
-
 ### How do I use this to see if my code might possibly be vulnerable?
 
 Once you've installed [Semgrep](https://semgrep.dev/), you can download the YAML file in this repo and reference it using a command like the following:
