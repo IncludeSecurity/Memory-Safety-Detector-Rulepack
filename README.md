@@ -30,6 +30,11 @@ The affected codebase might possibly definitely has vulnerabilities.
 IS SECURITY A JOKE TO YOU?!?!?
 Yes, absolutely. Happy April fool's day from Include Security 😀
 
-Needless to say, security is nuanced. Different use cases will have different requirements, and thus work best with different technologies. We understand that security is complicated and technology can't always take a "one size fits all" approach. We hack apps for our clients written in C, C++, Java, Ruby, and yes even for memory safe languages such as Rust. There are security issues in every tech stack. If you ever need a team of all-expert hackers to take a look at your apps, we're an email away: info [at sign] IncludeSecurity.com we've worked on thousands of applications for hundreds of clients, it always helps to drop us a line to stay in touch, you never know when you need a hackers first company, not sales first!)
+Needless to say, security is nuanced. Different use cases will have different requirements, and thus work best with different technologies. We understand that security is complicated and technology can't always take a "one size fits all" approach. We hack apps for our clients written in C, C++, Java, Ruby, and yes even for memory safe languages such as Rust. There are security issues in every tech stack.
+
+If you'd like to talk to a team of all-expert hackers, email us now: \
+**info [at] IncludeSecurity.com**
+\
+We've worked on thousands of applications for hundreds of clients, it always helps to drop us a line to stay in touch, you never know when you need a hackers first company, not sales first!)
 
 ![Cyber Security Czar Public Service Message](Cyber%20Security%20Czar%20Public%20Service%20Message.png)
