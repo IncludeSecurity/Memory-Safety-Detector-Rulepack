@@ -28,7 +28,7 @@ The affected codebase might possibly definitely has vulnerabilities.
 ### Is this supposed to be a joke?
 
 IS SECURITY A JOKE TO YOU?!?!?
-Yes, absolutely. Happy April fool's day from Include Security 😀
+Yes, absolutely. We released this on April 1st 2024, happy April fool's day from Include Security 😀 
 
 Needless to say, security is nuanced. Different use cases will have different requirements, and thus work best with different technologies. We understand that security is complicated and technology can't always take a "one size fits all" approach. We hack apps for our clients written in C, C++, Java, Ruby, and yes even for memory safe languages such as Rust. There are security issues in every tech stack.
 
